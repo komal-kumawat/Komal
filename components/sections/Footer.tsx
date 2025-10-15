@@ -32,10 +32,10 @@ export default function Footer() {
           key={mounted ? theme : "default"}
           src={
             !mounted
-              ? "/logo_light.svg"
+              ? "/logo-light.svg"
               : theme === "dark"
-              ? "/logo_dark.svg"
-              : "/logo_light.svg"
+              ? "/logo-dark.svg"
+              : "/logo-light.svg"
           }
           alt="Silver logo"
           width={140}
@@ -48,7 +48,7 @@ export default function Footer() {
 
         <div className="flex flex-wrap justify-center gap-6 sm:gap-10 mt-6 mb-6">
           <a
-            href="https://www.linkedin.com/in/rajat-saraswat-0491a3259/"
+            href="https://www.linkedin.com/in/komal-kumawat-7032662a0/"
             target="_blank"
             rel="noopener noreferrer"
             className="
@@ -62,7 +62,7 @@ export default function Footer() {
           </a>
 
           <a
-            href="https://github.com/StealthSilver"
+            href="https://github.com/komal-kumawat"
             target="_blank"
             rel="noopener noreferrer"
             className="
@@ -76,7 +76,7 @@ export default function Footer() {
           </a>
 
           <a
-            href="https://x.com/silver_srs"
+            href="https://x.com/KomalKumawat112"
             target="_blank"
             rel="noopener noreferrer"
             className="
@@ -90,7 +90,7 @@ export default function Footer() {
           </a>
 
           <a
-            href="mailto:rajatsaraswat12@gmail.com"
+            href="mailto:kumawatkomal17122004@gmail.com"
             className="
               rounded-full border p-2.5 sm:p-3
               bg-white text-black border-black hover:bg-black hover:text-white
@@ -105,7 +105,7 @@ export default function Footer() {
         <div className="w-full max-w-5xl border-t border-gray-300 dark:border-gray-700" />
 
         <p className="text-xs sm:text-sm text-gray-600 dark:text-gray-400 mt-4">
-          © {year} Silver. All rights reserved.
+          © {year} Komal. All rights reserved.
         </p>
       </div>
     </footer>

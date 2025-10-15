@@ -1,8 +1,8 @@
 export const SITE = {
-  name: "Silver Portfolio",
+  name: "Komal Portfolio",
   description:
     "Full-stack software engineer specializing in modern web development.",
   url: "https://example.com",
   ogImage: "/og-img.png",
-  twitterHandle: "https://x.com/Rajat_0409",
+  twitterHandle: "https://x.com/KomalKumawat112",
 };

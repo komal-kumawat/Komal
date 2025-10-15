@@ -22,7 +22,7 @@ const ibmPlexMono = IBM_Plex_Mono({
 export const metadata: Metadata = {
   metadataBase: new URL(SITE.url),
   title: {
-    default: `Silver - Software Engineer`,
+    default: `Komal - Software Engineer`,
     template: `%s | ${SITE.name}`,
   },
   description: SITE.description,

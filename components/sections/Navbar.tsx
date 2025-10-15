@@ -44,10 +44,10 @@ export default function Navbar() {
             key={mounted ? theme : "default"}
             src={
               !mounted
-                ? "/logo_light.svg"
+                ? "/logo-light.svg"
                 : theme === "dark"
-                ? "/logo_dark.svg"
-                : "/logo_light.svg"
+                ? "/logo-dark.svg"
+                : "/logo-light.svg"
             }
             alt="Silver logo"
             className="w-28 h-auto sm:w-32 md:w-36"
@@ -118,7 +118,7 @@ export default function Navbar() {
         {/* Desktop Right Section */}
         <div className="hidden md:flex items-center gap-6 font-mono">
           <a
-            href="https://github.com/StealthSilver"
+            href="https://github.com/komal-kumawat"
             target="_blank"
             rel="noopener noreferrer"
             className="

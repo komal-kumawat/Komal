@@ -29,7 +29,7 @@ export default function Hero() {
           <Spotlight />
           <span>Hi, I am</span>
           <div className="w-[200px] sm:w-[260px] md:w-[420px] md:h-[150px]">
-            <TextHoverEffect text="Silver" duration={0.3} />
+            <TextHoverEffect text="Komal" duration={0.3} />
           </div>
         </motion.h1>
 
@@ -82,7 +82,7 @@ export default function Hero() {
           </a>
 
           <a
-            href="/Resume1.pdf"
+            href="/Resume.pdf"
             target="_blank"
             rel="noopener noreferrer"
             className="

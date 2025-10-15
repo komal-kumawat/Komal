@@ -52,12 +52,6 @@ export const TECH_STACK: TechStack[] = [
     categories: ["Runtime Environment"],
   },
   {
-    key: "Sass",
-    title: "Sass",
-    href: "https://sass-lang.com/",
-    categories: ["Runtime Environment"],
-  },
-  {
     key: "jquery",
     title: "JQuery",
     href: "https://jquery.com/",
@@ -71,37 +65,11 @@ export const TECH_STACK: TechStack[] = [
     lightIcon: "NodeJS-Light.svg",
   },
   {
-    key: "bun",
-    title: "Bun",
-    href: "https://bun.sh/",
-    categories: ["Runtime Environment"],
-    lightIcon: "Bun-Light.svg",
-  },
-  {
     key: "express",
     title: "ExpressJS",
     href: "https://expressjs.com/",
     categories: ["Runtime Environment"],
     lightIcon: "ExpressJS-Light.svg",
-  },
-  {
-    key: "django",
-    title: "Django",
-    href: "https://www.djangoproject.com/",
-    categories: ["Runtime Environment"],
-  },
-  {
-    key: "flask",
-    title: "Flask",
-    href: "https://nodejs.org/",
-    categories: ["Runtime Environment"],
-    lightIcon: "Flask-Light.svg",
-  },
-  {
-    key: "fast",
-    title: "FastAPI",
-    href: "https://flask.palletsprojects.com/en/stable/",
-    categories: ["Runtime Environment"],
   },
   {
     key: "react",
@@ -119,33 +87,11 @@ export const TECH_STACK: TechStack[] = [
     lightIcon: "NextJS-Light.svg",
   },
   {
-    key: "angular",
-    title: "Angular",
-    href: "https://angular.dev/",
-    categories: ["Framework"],
-    theme: true,
-    lightIcon: "Angular-Light.svg",
-  },
-  {
-    key: "nest",
-    title: "NestJS",
-    href: "https://nestjs.com/",
-    categories: ["Library", "UI Library"],
-    lightIcon: "NestJS-Light.svg",
-  },
-  {
     key: "tailwind",
     title: "Tailwind CSS",
     href: "https://tailwindcss.com/",
     categories: ["Framework"],
     lightIcon: "TailwindCSS-Light.svg",
-  },
-  {
-    key: "three",
-    title: "ThreeJS",
-    href: "https://threejs.org/",
-    categories: ["Library", "Animation"],
-    lightIcon: "ThreeJS-Light.svg",
   },
   {
     key: "shadcn",
@@ -154,14 +100,6 @@ export const TECH_STACK: TechStack[] = [
     categories: ["Library", "Component Library"],
     theme: true,
     lightIcon: "shadcn_light.svg",
-  },
-  {
-    key: "radixui",
-    title: "Radix UI",
-    href: "https://www.radix-ui.com/",
-    categories: ["Library", "Component Library"],
-    theme: true,
-    lightIcon: "radix_light.svg",
   },
   {
     key: "motion",
@@ -176,12 +114,6 @@ export const TECH_STACK: TechStack[] = [
     categories: ["State Management"],
   },
   {
-    key: "ant",
-    title: "Ant Design",
-    href: "https://ant.design/",
-    categories: ["Library", "UI Library"],
-  },
-  {
     key: "bootstrap",
     title: "Bootstrap",
     href: "https://getbootstrap.com/",
@@ -193,12 +125,6 @@ export const TECH_STACK: TechStack[] = [
     href: "https://mui.com/material-ui/",
     categories: ["Library", "UI Library"],
     lightIcon: "MaterialUI-Light.svg",
-  },
-  {
-    key: "Jest",
-    title: "Jest",
-    href: "https://jestjs.io/",
-    categories: ["Version Control"],
   },
 
   {
@@ -227,19 +153,6 @@ export const TECH_STACK: TechStack[] = [
     categories: ["Containerization"],
   },
   {
-    key: "Kafka",
-    title: "Kafka",
-    href: "https://kafka.apache.org/",
-    categories: ["Containerization"],
-  },
-  {
-    key: "grafna",
-    title: "Grafana",
-    href: "https://www.docker.com/",
-    categories: ["Containerization"],
-    lightIcon: "Grafana-Light.svg",
-  },
-  {
     key: "mysql",
     title: "MySQL",
     href: "https://www.mysql.com/",
@@ -260,25 +173,11 @@ export const TECH_STACK: TechStack[] = [
     categories: ["Database"],
   },
   {
-    key: "redis",
-    title: "Redis",
-    href: "https://redis.io/",
-    categories: ["Database"],
-    lightIcon: "Redis-Light.svg",
-  },
-  {
     key: "firebase",
     title: "Firebase",
     href: "https://firebase.google.com/",
     categories: ["Database"],
     lightIcon: "Firebase-Light.svg",
-  },
-  {
-    key: "graph",
-    title: "GraphQL",
-    href: "https://graphql.org/",
-    categories: ["Version Control"],
-    lightIcon: "GraphQL-Light.svg",
   },
   {
     key: "nginx",
