@@ -28,9 +28,9 @@ export const PROJECTS = [
   {
     title: "Komal",
     description: "A portfolio application in nextjs ",
-    image: "/projects/silver.png",
+    image: "/projects/komal.png",
     live: "https://silver-jet.vercel.app/",
-    github: "https://github.com/StealthSilver/Silver",
+    github: "https://github.com/komal-kumawat/Komal.git",
     figma:
       "https://www.figma.com/design/vX7gVhAgVACysF1aFNcCtj/Portfolio?node-id=36-541&t=zlVUk0IN29zpPcVg-1",
   },
