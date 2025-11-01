@@ -122,7 +122,7 @@ export default function Education() {
                     space-y-2 overflow-hidden
                   "
                 >
-                  {edu.details.map((point, i) => (
+                  {edu.details?.map((point, i) => (
                     <li key={i} dangerouslySetInnerHTML={{ __html: point }} />
                   ))}
                 </motion.ul>
