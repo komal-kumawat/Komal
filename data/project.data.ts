@@ -8,15 +8,7 @@ export const PROJECTS = [
     figma:
       "https://www.figma.com/design/fkprR8ZCbDezgeWweqLc6X/MS-landing?node-id=0-1&t=gscDeXAEkqGmTJlM-1",
   },
-  {
-    title: "Verdan",
-    description: "A plantation management and monitoring platform",
-    image: "/projects/verdan.png",
-    live: "https://verdan-nine.vercel.app/",
-    github: "https://github.com/StealthSilver/Verdan",
-    figma:
-      "https://www.figma.com/design/hB3sQuOb3ztReunlyvGiEN/VERDAN?node-id=0-1&t=OitKgQLjk7bXnfYA-1",
-  },
+
   {
     title: "RiffinityAI",
     description: "An AI companion application with multiple models",
@@ -29,7 +21,7 @@ export const PROJECTS = [
     title: "Komal",
     description: "A portfolio application in nextjs ",
     image: "/projects/komal.png",
-    live: "https://silver-jet.vercel.app/",
+    live: "https://komal-rho.vercel.app/",
     github: "https://github.com/komal-kumawat/Komal.git",
     figma:
       "https://www.figma.com/design/vX7gVhAgVACysF1aFNcCtj/Portfolio?node-id=36-541&t=zlVUk0IN29zpPcVg-1",
