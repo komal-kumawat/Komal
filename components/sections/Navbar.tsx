@@ -59,7 +59,7 @@ export default function Navbar() {
 
         {/* Desktop Nav */}
         <div
-          className="hidden md:flex items-center px-2 font-mono relative gap-6"
+          className="hidden lg:flex items-center px-2 font-mono relative gap-6"
           onMouseLeave={() => setHovered(null)}
         >
           {navItems.map((item) => (
@@ -116,7 +116,7 @@ export default function Navbar() {
         </div>
 
         {/* Desktop Right Section */}
-        <div className="hidden md:flex items-center gap-6 font-mono">
+        <div className="hidden lg:flex items-center gap-6 font-mono">
           <a
             href="https://github.com/komal-kumawat"
             target="_blank"
@@ -147,7 +147,7 @@ export default function Navbar() {
         </div>
 
         {/* Mobile Menu Button */}
-        <div className="md:hidden flex items-center gap-3">
+        <div className="lg:hidden flex items-center gap-3">
           <div className="scale-90">
             <ThemeToggle />
           </div>
