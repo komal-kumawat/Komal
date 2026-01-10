@@ -21,7 +21,7 @@ export const PROJECTS = [
   },
     {
     title: "ElevateUI",
-    description: "A reusable React & TypeScript component library with Tailwind CSS, featuring ready-to-use UI components and live previews.",
+    description: "A modern UI component library with reusable components and live previews",
     image: "/projects/elevateui.png",
     live: "https://component-library-two-eta.vercel.app/",
     github: "https://github.com/komal-kumawat/ElevateUI.git",
