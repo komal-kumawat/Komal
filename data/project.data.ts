@@ -9,14 +9,7 @@ export const PROJECTS = [
       "https://www.figma.com/design/fkprR8ZCbDezgeWweqLc6X/MS-landing?node-id=0-1&t=gscDeXAEkqGmTJlM-1",
   },
 
-  {
-    title: "RiffinityAI",
-    description: "An AI companion application with multiple models",
-    image: "/projects/riffinity.png",
-    live: "https://riffinity-l18s.vercel.app/", // backend
-    github: "https://github.com/komal-kumawat/RiffinityAI.git",
-    figma: "https://figma.com/file/your-figma-link", //
-  },
+  
   {
     title: "Komal",
     description: "A portfolio application in nextjs ",
@@ -25,6 +18,22 @@ export const PROJECTS = [
     github: "https://github.com/komal-kumawat/Komal.git",
     figma:
       "https://www.figma.com/design/vX7gVhAgVACysF1aFNcCtj/Portfolio?node-id=36-541&t=zlVUk0IN29zpPcVg-1",
+  },
+    {
+    title: "ElevateUI",
+    description: "A reusable React & TypeScript component library with Tailwind CSS, featuring ready-to-use UI components and live previews.",
+    image: "/projects/elevateui.png",
+    live: "https://component-library-two-eta.vercel.app/",
+    github: "https://github.com/komal-kumawat/ElevateUI.git",
+    figma: "https://figma.com/file/your-figma-link",
+},
+  {
+    title: "RiffinityAI",
+    description: "An AI companion application with multiple models",
+    image: "/projects/riffinity.png",
+    live: "https://riffinity-l18s.vercel.app/", // backend
+    github: "https://github.com/komal-kumawat/RiffinityAI.git",
+    figma: "https://figma.com/file/your-figma-link", //
   },
   {
     title: "Investra",
