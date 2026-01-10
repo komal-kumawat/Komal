@@ -27,14 +27,7 @@ export const PROJECTS = [
     github: "https://github.com/komal-kumawat/ElevateUI.git",
     figma: "https://figma.com/file/your-figma-link",
 },
-  {
-    title: "RiffinityAI",
-    description: "An AI companion application with multiple models",
-    image: "/projects/riffinity.png",
-    live: "https://riffinity-l18s.vercel.app/", // backend
-    github: "https://github.com/komal-kumawat/RiffinityAI.git",
-    figma: "https://figma.com/file/your-figma-link", //
-  },
+  
   {
     title: "Investra",
     description: "Low Latency real time trading and investment application",
@@ -45,11 +38,11 @@ export const PROJECTS = [
       "https://www.figma.com/design/UhdHOIha7xWSdqZwHjCc7M/Prominent?node-id=1-2&t=37UrjNWrYqGqM5ym-1", //
   },
   {
-    title: "ConnectLive",
-    description: "A low latency video confrencing platforms",
-    image: "/projects/connectright.png",
-    live: "https://connect-live-theta.vercel.app/", // ->chang the landing page
-    github: "https://github.com/StealthSilver/ConnectRight", // change the souce code
+    title: "RiffinityAI",
+    description: "An AI companion application with multiple models",
+    image: "/projects/riffinity.png",
+    live: "https://riffinity-l18s.vercel.app/", // backend
+    github: "https://github.com/komal-kumawat/RiffinityAI.git",
     figma: "https://figma.com/file/your-figma-link", //
   },
   {
@@ -59,5 +52,14 @@ export const PROJECTS = [
     live: "https://quick-pay-olive-ten.vercel.app/", // backend deploy
     github: "https://github.com/komal-kumawat/QuickPay.git",
     figma: "https://figma.com/file/your-figma-link", //
-  }
+  },
+  {
+    title: "ConnectLive",
+    description: "A low latency video confrencing platforms",
+    image: "/projects/connectright.png",
+    live: "https://connect-live-theta.vercel.app/", // ->chang the landing page
+    github: "https://github.com/StealthSilver/ConnectRight", // change the souce code
+    figma: "https://figma.com/file/your-figma-link", //
+  },
+  
 ];
