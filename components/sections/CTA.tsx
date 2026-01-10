@@ -2,6 +2,7 @@
 
 import { motion } from "framer-motion";
 import { BackgroundRippleEffect } from "@/components/ui/BackgroundRipple";
+import { DottedGlowBackground } from "../ui/dotted-glow-background";
 
 export default function CTA() {
   return (
@@ -16,7 +17,21 @@ export default function CTA() {
         overflow-x-hidden overflow-y-hidden
       "
     >
-      <BackgroundRippleEffect />
+      <DottedGlowBackground
+        className="pointer-events-none mask-radial-to-90% mask-radial-at-center opacity-20 dark:opacity-100"
+        opacity={1}
+        gap={10}
+        radius={1.6}
+        colorLightVar="--color-neutral-500"
+        glowColorLightVar="--color-neutral-600"
+        colorDarkVar="--color-neutral-500"
+        glowColorDarkVar="--color-sky-800"
+        backgroundOpacity={0}
+        speedMin={0.3}
+        speedMax={1.6}
+        speedScale={1}
+      />
+
 
       <div className="relative z-10 max-w-3xl sm:max-w-4xl mx-auto flex flex-col items-center text-center space-y-4 sm:space-y-6">
         <motion.p
