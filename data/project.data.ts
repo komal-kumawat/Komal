@@ -49,7 +49,7 @@ export const PROJECTS = [
     title: "QuickPay",
     description: "An end to end payment gateway application",
     image: "/projects/bridgepay.png", //
-    live: "https://quick-pay-olive-ten.vercel.app/", // backend deploy
+    live: "https://quickpay-landing-page-xi.vercel.app/", // backend deploy
     github: "https://github.com/komal-kumawat/QuickPay.git",
     figma: "https://figma.com/file/your-figma-link", //
   },
