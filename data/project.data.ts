@@ -27,6 +27,14 @@ export const PROJECTS = [
     github: "https://github.com/komal-kumawat/ElevateUI.git",
     figma: "https://figma.com/file/your-figma-link",
 },
+{
+    title: "Readstack",
+    description: "A simple platform for powerful stories.",
+    image: "/projects/readstack.png",
+    live: "https://read-stack-teal.vercel.app/",
+    github: "https://github.com/komal-kumawat/ReadStack.git",
+    figma: "https://figma.com/file/your-figma-link",
+},
   
   {
     title: "Investra",
